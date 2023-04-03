@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.logoColumn}>
-        <img src="../images/logo.svg" alt="Logo" className={styles.logo} />
+        <img src="../images/Logo.svg" alt="Logo" className={styles.logo} />
       </div>
       <div className={styles.followUsColumn}>
         <h3>Follow Us</h3>
