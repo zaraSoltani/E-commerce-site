@@ -1,0 +1,25 @@
+.quantityButtonContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.quantityButtonContainer button {
+  width: 50px;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.quantityButtonContainer p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .quantityButtonContainer button {
+    width: 40px;
+    font-size: 1rem;
+  }
+}

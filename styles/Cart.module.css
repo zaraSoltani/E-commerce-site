@@ -1,0 +1,93 @@
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  gap: 2rem;
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-darkgray);
+}
+.container :global(img) {
+  width: 600px !important;
+}
+
+.details {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.name p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.totalItemPrice {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.totalPrice {
+  width: 80%;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .details {
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+  }
+
+  .name p {
+    font-size: 1.5rem;
+  }
+
+  .totalPrice {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .details {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 660px) {
+  .container :global(img) {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .container :global(img) {
+    width: 300px !important;
+  }
+
+  .totalItemPrice {
+    font-size: 1.2rem;
+  }
+}

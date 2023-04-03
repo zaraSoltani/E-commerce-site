@@ -1,0 +1,15 @@
+.buyButton {
+  width: 200px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+@media (max-width: 480px) {
+  .buyButton {
+    width: 60%;
+  }
+}

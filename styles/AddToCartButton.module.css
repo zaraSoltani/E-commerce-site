@@ -1,0 +1,23 @@
+.container button {
+  width: 255px;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 0rem;
+}
+
+.container button:hover {
+  background-color: var(--color-darkgray);
+  color: var(--color-black);
+}
+
+@media (max-width: 768px) {
+  .container button {
+    font-size: 0.8rem;
+    width: 150px;
+  }
+}

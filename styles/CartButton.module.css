@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  padding-right: 1rem;
+}
+
+.cartButton {
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-red);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -20px;
+  top: -8px;
+}
+@media (max-width: 480px) {
+  .cartButton {
+    width: 20px;
+    height: 20px;
+    left: -16px;
+    top: -6px;
+    font-size: 14px;
+  }
+}
